@@ -1,6 +1,5 @@
 import Footer from "@/components/footer";
 import Header from "@/components/header";
-import Image from "next/image";
 
 const hyperLinkStyle = "hover:underline text-blue-600 hover:text-blue-800";
 
@@ -21,21 +20,28 @@ export default function Home() {
         </p>
         <p className="font-serif text-lg">
           I am always looking to get involved in new projects and learn new
-          things. I you want to get in touch with me, you can reach me at{" "}
+          things. If you want to get in touch with me, you can schedule a call
+          me at{" "}
           <a
             className={hyperLinkStyle}
             href="https://cal.com/carlos-sanchez-marin-4a4jrn"
           >
             Cal.com
           </a>
+          , or send me an{" "}
+          <a className={hyperLinkStyle} href="mailto:carlos@sanchez.kr">
+            email
+          </a>
+          .
         </p>
       </section>
       <section id="background" className="flex flex-col gap-4">
         <h1 className="font-sans text-4xl font-bold">Background</h1>
         <p className="font-serif text-lg">
-          I did a double master&apos;s in Data Science at Eindhoven University
-          of Technology (TU/e) and Madrid Technical University (UPM). During my
-          bachelor I worked as an intern at the{" "}
+          I did a double master&apos;s majoring in Data Science at Eindhoven
+          University of Technology (TU/e) and Madrid Technical University (UPM),
+          together with a minor in ICT innovation and entrepreneurship. During
+          my bachelor I worked as an intern at the{" "}
           <a className={hyperLinkStyle} href="http://lsd.ls.fi.upm.es/">
             Distributed Systems Laboratory{" "}
           </a>
